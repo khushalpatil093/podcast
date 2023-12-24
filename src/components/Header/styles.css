@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem;
+    padding: 0rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.navigation {
+    display: flex;
+    gap: 2rem;
+}
+.navigation a {
+    text-decoration: none;
+    color: var(--white);
+}
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.auth a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+@media (max-width: 500px) {
+    .navigation {
+        display: none;
+    }
+    .header {
+        margin: 0rem 1rem;
+    }
+}
